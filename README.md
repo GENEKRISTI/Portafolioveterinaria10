@@ -1,83 +1,195 @@
-# Clínica Veterinaria GENESIS
+PROYECTO E-COMMERCE VETERINARIA
 
-Sitio web académico para una clínica veterinaria. El nombre «GENESIS» aparece como identificador junto a «Clínica Veterinaria», con una estética morada vintage de inspiración victoriana.
+URL DE REPOSITORIOt https://genekristi.github.io/Portafolioveterinaria10/
+URL GITHUB PAGES: GENEKRISTI/Portafolio-veterinaria
+  URL DE VERCEL: portafolioveterinaria10.vercel.app
 
-## Vista general
+  
+DOCUMENTACIÓN DEL PROYECTO — CLÍNICA VETERINARIA GENESIS
+Desarrollo y publicación del sitio web
+Título del proyecto: Clínica Veterinaria GENESIS  
+Tipo de proyecto: sitio web estático  
+Autora/identificación visual:Genesis  
+Tecnologías:HTML5, CSS3, JavaScript, Bootstrap, Font Awesome
 
-- Diseño adaptable a computadoras, tabletas y celulares.
-- Navegación fija con enlaces a las secciones.
-- Portada, introducción y servicios.
-- Perfiles del equipo veterinario.
-- Carrusel de diez opiniones de demostración (hasta cuatro tarjetas visibles).
-- Formulario con validación y preparación de correo mediante `mailto:`.
-- Enlaces demostrativos a WhatsApp y redes sociales.
-- Pie de página con información general.
+ 1. Introducción
+Este proyecto consiste en desarrollar una página web para una clínica veterinaria ficticia llamada Genesis. Su propósito es presentar servicios, mostrar un equipo de profesionales, compartir opiniones de clientes y facilitar el contacto con visitantes.
 
-## Tecnologías
+La identidad visual utiliza tonos morados, lavanda y dorados, junto con ornamentos florales y tipografías clásicas que evocan una estética vintage y victoriana. La página se adapta a diferentes tamaños de pantalla.
 
-- HTML5: estructura semántica.
-- CSS3: diseño, variables, animaciones y adaptación responsive.
-- JavaScript: carrusel, validación del formulario y año automático.
-- Bootstrap 5.3: cuadrícula, navegación móvil y modal.
-- Font Awesome 6: iconos.
-- Google Fonts: tipografías Cormorant Garamond y Montserrat.
+2. Objetivos
+- Aplicar los fundamentos del desarrollo web.
+- Separar la estructura, el diseño y el comportamiento en archivos independientes.
+- Crear una interfaz clara, atractiva y adaptable.
+- Incorporar interacciones básicas con JavaScript.
+- Aprender a publicar un sitio estático mediante GitHub Pages y Vercel.
+3. Fundamentos del desarrollo web
+El desarrollo web es el proceso de crear sitios y aplicaciones que pueden consultarse mediante un navegador. En una página web, distintas tecnologías trabajan juntas:
 
-## Estructura del proyecto
+ HTML – estructura
+HTML significa *HyperText Markup Language*. Define el contenido y la organización de la página mediante elementos como encabezados, párrafos, imágenes, enlaces, formularios y secciones. En Genesis, `index.html` contiene toda la estructura visible.
 
-```text
-GENESIS_Veterinaria/
-├── index.html
-├── style.css
-├── script.js
-├── README.md
-└── DOCUMENTACION.md
-```
+CSS – presentación
+CSS significa *Cascading Style Sheets*. Controla colores, tamaños, espacios, tipografías, distribución y adaptación a pantallas. En Genesis, `style.css` define la paleta morada, los detalles victorianos, las tarjetas, las animaciones y las reglas responsive.
 
-## Ejecutar localmente
+JavaScript – interacción
+JavaScript permite que una página responda a las acciones de las personas. En este proyecto controla el carrusel de testimonios, valida el formulario, prepara un correo y actualiza el año del footer.
 
-1. Descarga o clona el repositorio.
-2. Abre la carpeta en Visual Studio Code.
-3. Abre `index.html` directamente en el navegador, o instala la extensión **Live Server**.
-4. Si utilizas Live Server, haz clic derecho sobre `index.html` y selecciona **Open with Live Server**.
+ Bootstrap – herramientas de interfaz
+Bootstrap es un framework CSS que facilita la creación de interfaces adaptables. Se utiliza mediante CDN para la cuadrícula, el menú móvil y la ventana modal.
 
-La página utiliza recursos externos (Bootstrap, Font Awesome, Google Fonts e imágenes), por lo que es necesaria una conexión a Internet para cargarlos.
+Font Awesome – iconos
+Font Awesome ofrece una biblioteca de iconos. En Genesis se utiliza para representar servicios, contacto y redes sociales.
 
-## Personalización antes de publicar
+Nota histórica: HTML apareció en los primeros años de la Web (1991); CSS se propuso en 1994 y se estandarizó después; JavaScript fue creado en 1995. Bootstrap se publicó en 2011 y Font Awesome en 2012. Esta secuencia ayuda a ubicar su evolución, aunque cada tecnología cumple una función diferente.
+4. Organización de archivos
+El proyecto se compone de cinco archivos principales:
+| Archivo | Función |
+|---|---|
+| index.html | Contenido y estructura de la página |
+| style.css | Apariencia, colores y diseño adaptable |
+|script.js| Carrusel, validación e interacciones |
+| README.md| Resumen, instalación y publicación |
+| DOCUMENTACION.md| Manual explicativo del proyecto |
 
-Este proyecto es una demostración académica. Antes de utilizarlo como página real:
+Los archivos deben estar dentro de la misma carpeta para que las rutas style.css y script.js funcionen correctamente.
 
-- Sustituye el teléfono ficticio `+1 (809) 555-0100` y el enlace `wa.me/18095550100` por un número real autorizado.
-- Cambia nombres, fotografías, testimonios, dirección y horario por información real y autorizada.
-- En el formulario, `mailto:` abre el programa de correo del visitante y deja el mensaje preparado; no garantiza el envío ni almacena formularios. Para recibir mensajes directamente en un negocio, integra un servicio de formularios o un backend y configura su destino.
-- Revisa que las imágenes externas sigan disponibles y que tengas permiso para utilizarlas.
-- Actualiza los enlaces de redes sociales para que apunten a los perfiles correctos.
+ 5. Desarrollo paso a paso
+ Paso 1. Crear la estructura HTML
+En index.html se define el idioma, los metadatos, el título y los enlaces a las hojas de estilo externas. El cuerpo se divide en secciones semánticas:
+1. Navegación: enlaces a las áreas principales.
+2. Inicio: presentación de Genesis.
+3. Introducción: propósito de la clínica.
+4. Servicios: consulta general, cirugías y peluquería.
+5. Equipo: tres perfiles ilustrativos.
+6. Testimonios: espacio para diez opiniones.
+7. Contacto: información demostrativa y formulario.
+8. Footer: redes sociales, ubicación general y horario ilustrativo.
+Bootstrap y Font Awesome se incorporan mediante CDN. Esto permite utilizar sus recursos sin descargar sus archivos al proyecto
 
-## Publicar en GitHub Pages
 
-1. Crea una cuenta en [GitHub](https://github.com/).
-2. Selecciona **New repository**.
-3. Escribe `genesis-veterinaria` como nombre y elige público o privado según las instrucciones de tu clase. Para Pages, revisa las condiciones de publicación de repositorios privados de tu plan.
-4. Crea el repositorio.
-5. En la página del repositorio, selecciona **Add file → Upload files**.
-6. Arrastra los archivos del proyecto (`index.html`, `style.css`, `script.js`, `README.md`, `DOCUMENTACION.md`) al área de carga.
-7. Escribe un mensaje de confirmación y pulsa **Commit changes**.
-8. Ve a **Settings → Pages**.
-9. En **Build and deployment**, selecciona **Deploy from a branch**.
-10. Elige la rama `main` y la carpeta `/ (root)`, y pulsa **Save**.
-11. Espera a que GitHub Pages publique el sitio. La dirección aparecerá en la sección Pages y tendrá una forma similar a `https://TU-USUARIO.github.io/genesis-veterinaria/`.
 
-## Publicar en Vercel
 
-1. Entra en [Vercel](https://vercel.com/) y crea una cuenta.
-2. Selecciona continuar con GitHub y autoriza la conexión.
-3. En el panel, pulsa **Add New → Project**.
-4. Importa el repositorio `genesis-veterinaria`.
-5. Para este proyecto estático, no necesitas framework ni comando de compilación. Deja el preset como **Other** y el comando de build vacío.
-6. Si aparece la opción **Output Directory**, déjala vacía o utiliza `.` si la interfaz exige un valor.
-7. Pulsa **Deploy**.
-8. Cuando termine, Vercel mostrará la URL pública del proyecto. Puedes abrirla y compartirla.
-9. Cada actualización que subas a la rama conectada de GitHub podrá generar un nuevo despliegue automáticamente.
+<img width="600" height="338" alt="image" src="https://github.com/user-attachments/assets/57a982aa-862e-4c45-9aa9-851bde98bec5" />
 
-## Licencia y uso
+Paso 2. Aplicar los estilos CSS
+En style.css se crean variables para mantener una paleta consistente. Por ejemplo:
+css
+:root {
+  --plum: #39234f;
+  --deep-plum: #281638;
+  --purple: #684b7e;
+  --lavender: #eee6f2;
+  --gold: #c5a46d;
+}
+Después se diseñan la portada, las tarjetas, los perfiles, el carrusel y el formulario. Las imágenes utilizan `object-fit: cover` para conservar una presentación ordenada.
+Las media queries modifican la distribución en pantallas pequeñas. Por ejemplo, el carrusel muestra cuatro tarjetas en pantallas grandes, tres en tabletas, dos en pantallas medianas pequeñas y una en móviles.
 
-Proyecto de práctica académica. Verifica los derechos de uso de las imágenes y recursos de terceros antes de un uso comercial.
+
+<img width="569" height="320" alt="image" src="https://github.com/user-attachments/assets/a1cb7775-05f3-4a67-9aa4-c51cbb47a4ef" />
+
+
+
+ Paso 3. Programar las funciones JavaScript
+En script.js se encuentra la lógica de interacción:
+- Se define una lista de diez testimonios de demostración.
+- Se generan sus tarjetas dentro del carrusel.
+- Los botones anterior y siguiente desplazan las tarjetas.
+- El número de tarjetas visibles se adapta al ancho de pantalla.
+- El formulario comprueba nombre, correo y mensaje.
+- Si los datos son válidos, se construye un enlace mailto: para abrir la aplicación de correo.
+- Se muestra una ventana modal informativa.
+- El año del footer se actualiza automáticamente.
+Importante sobre el formulario: el navegador no puede confirmar de manera fiable que una aplicación externa de correo se abrió ni que el mensaje se envió. El modal indica que se preparó el correo, no que se recibió. Para recibir formularios directamente se necesita conectar un servicio de formularios o desarrollar un backend.
+
+
+
+
+<img width="577" height="324" alt="image" src="https://github.com/user-attachments/assets/fbb65812-b2f0-4566-bd29-40457d18498c" />
+
+
+
+
+6. Cómo abrir el proyecto en Visual Studio Code
+1. Instala Visual Studio Code desde [https://code.visualstudio.com/](https://code.visualstudio.com/).
+2. Crea una carpeta llamada GENESIS_Veterinaria.
+3. Abre Visual Studio Code.
+4. Selecciona File → Open Folder y elige la carpeta.
+5. Crea los archivos index.html, style.css, script.js, README.md y DOCUMENTACION.md.
+6. Copia el contenido correspondiente en cada archivo y guarda los cambios.
+7. Abre index.html en el navegador para comprobar la página.
+
+Uso de Live Server (opcional)
+1. En Visual Studio Code, abre la sección Extensions.
+2. Busca Live Server.
+3. Instala la extensión de Ritwick Dey.
+4. Abre `index.html`.
+5. Haz clic derecho y selecciona Open with Live Server.
+6. Se abrirá el sitio en el navegador. Al guardar cambios, el navegador se actualizará
+
+
+<img width="459" height="258" alt="image" src="https://github.com/user-attachments/assets/69fd15a9-27f1-4d54-936e-ee72b522b7ad" />
+
+
+<img width="539" height="303" alt="image" src="https://github.com/user-attachments/assets/af86e74a-c680-4440-9803-668dab93631f" />
+
+
+
+7. Publicación en GitHub
+GitHub permite alojar repositorios de código y mantener un historial de cambios.
+1. Visita [https://github.com/](https://github.com/) y crea una cuenta.
+2. Confirma el correo y accede.
+3. Pulsa New repository.
+4. Escribe genesis-veterinaria como nombre.
+5. Selecciona la visibilidad que corresponda a las instrucciones académicas.
+6. Pulsa Create repository.
+7. En el repositorio, selecciona Add file → Upload files.
+8. Arrastra los cinco archivos del proyecto a la página.
+9. Pulsa Commit changes para guardar
+
+    <img width="520" height="292" alt="image" src="https://github.com/user-attachments/assets/3d28add0-8811-48bf-84df-d2f52ad893c3" />
+
+
+<img width="527" height="296" alt="image" src="https://github.com/user-attachments/assets/a800347a-cddc-413a-8809-10d378b540ce" />
+
+
+Activar GitHub Pages
+1. Dentro del repositorio, entra en Settings.
+2. Busca Pages en el menú lateral.
+3. En Build and deployment, selecciona Deploy from a branch.
+4. Selecciona main como rama y / (root)como carpeta.
+5. Pulsa Save.
+6. Espera la publicación. GitHub mostrará el enlace del sitio en esa misma sección.
+
+La dirección suele tener esta forma:
+https://TU-USUARIO.github.io/portafolio-veterinaria/
+El nombre de usuario y el nombre del repositorio deben sustituirse por los reales
+
+
+<img width="664" height="373" alt="image" src="https://github.com/user-attachments/assets/a34ce66a-f578-4f55-82ed-0b319cc7833a" />
+
+
+8. Publicación en Vercel
+Vercel permite desplegar proyectos web y conectarlos con repositorios de GitHub.
+1. Entra en [https://vercel.com/](https://vercel.com/).
+2. Crea una cuenta o selecciona Continue with GitHub.
+3. Autoriza el acceso solicitado.
+4. En el panel, pulsa Add New → Project.
+5. Busca el repositorio genesis-veterinaria y selecciona Import.
+6. Como es una página estática, utiliza la configuración Other y no agregues comando de compilación.
+7. Pulsa Deploy.
+
+
+
+<img width="628" height="353" alt="image" src="https://github.com/user-attachments/assets/7840cf28-c277-41cf-9898-12c71653b8dc" />
+
+
+
+<img width="580" height="326" alt="image" src="https://github.com/user-attachments/assets/cb254ac4-2b50-4fab-856f-324145ba41a7" />
+
+8. Espera a que finalice el proceso.
+9. Vercel mostrará un enlace público con el que podrás abrir y compartir el sitio.
+Cuando el repositorio está conectado, los cambios que se suban a la rama configurada pueden iniciar nuevos despliegues automáticamente.
+
+
+
