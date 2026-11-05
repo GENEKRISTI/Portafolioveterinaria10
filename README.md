@@ -201,13 +201,25 @@ La experiencia demuestra que aprender desarrollo web no consiste solamente en es
 Este proyecto representa una oportunidad para seguir desarrollando habilidades digitales y aprovechar los recursos disponibles para aprender nuevas tecnologías. Con práctica y curiosidad, es posible transformar una idea en un proyecto que otras personas puedan visitar desde cualquier lugar.
 
 
+
+
 Cuadro de métricas: desarrollo de la página web de Clínica Veterinaria GENESIS
 Perfil	Modalidad	Con IA	Sin IA
+
 Aprendiz	Empresa	5–7 horas	18–25 horas
+
 Aprendiz	Freelancer	6–8 horas	20–28 horas
+
 Junior	Empresa	4–5 horas	10–14 horas
+
 Junior	Freelancer	5–6 horas	12–16 horas
+
 Senior	Empresa	3–4 horas	6–9 horas
+
 Senior	Freelancer	4–5 horas	7–10 horas
+
 Experto Full Stack	Empresa	2–3 horas	4–6 horas
+
 Experto Full Stack	Freelancer	3–4 horas	5–7 horas
+
+
