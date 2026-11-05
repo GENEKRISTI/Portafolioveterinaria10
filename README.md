@@ -202,24 +202,6 @@ Este proyecto representa una oportunidad para seguir desarrollando habilidades d
 
 
 
-
-Cuadro de métricas: desarrollo de la página web de Clínica Veterinaria GENESIS
-Perfil	Modalidad	Con IA	Sin IA
-
-Aprendiz	Empresa	5–7 horas	18–25 horas
-
-Aprendiz	Freelancer	6–8 horas	20–28 horas
-
-Junior	Empresa	4–5 horas	10–14 horas
-
-Junior	Freelancer	5–6 horas	12–16 horas
-
-Senior	Empresa	3–4 horas	6–9 horas
-
-Senior	Freelancer	4–5 horas	7–10 horas
-
-Experto Full Stack	Empresa	2–3 horas	4–6 horas
-
-Experto Full Stack	Freelancer	3–4 horas	5–7 horas
+<img width="463" height="318" alt="image" src="https://github.com/user-attachments/assets/ee1510b2-667f-445c-8d0e-fba96ab2da2f" />
 
 
